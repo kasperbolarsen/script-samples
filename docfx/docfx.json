@@ -44,7 +44,9 @@
     "fileMetadataFiles": [],
     "template": [
       "default",
-      "templates/material"
+      "modern",
+      // "templates/material"
+      "templates/custom-fx"
     ],
     "sitemap": {
       "baseUrl": "https://pnp.github.io/script-samples/",
@@ -58,7 +60,7 @@
         }
     }
     },
-    "postProcessors": ["FrontMatterProcessor"],
+    "postProcessors": ["SamplePostProcessor"],
     "markdownEngineName": "markdig",
     "noLangKeyword": false,
     "keepFileLink": false,
