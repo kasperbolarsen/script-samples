@@ -44,8 +44,8 @@
     "fileMetadataFiles": [],
     "template": [
       "default",
-      "modern",
-      // "templates/material"
+      //"modern",
+      "templates/material",
       "templates/custom-fx"
     ],
     "sitemap": {
